@@ -1,0 +1,415 @@
+/* ------------- SECTION 1 ------------- */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+#opening_section {
+position: absolute;
+    background-image: url("../res/plane.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    animation-name:sky;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition-timing-function: ease-out;
+    
+}
+
+@keyframes sky{
+    from{transform:scale(1.1);}
+    to{transform:scale(1);}  
+}
+
+
+
+#curtain{
+width: 100%;
+height: 100%; 
+background:rgba(0, 0, 0, 0.74);
+      display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    animation-name: curtain;
+    animation-delay:0s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes curtain {
+    from{background: rgba(0, 0, 0, 0);}
+    90%{background: rgba(0, 0, 0, 0);}
+    to{background:rgba(0, 0, 0, 0.81); }
+}
+
+
+#applicationbuzz{
+    background:rgba(0, 177, 255, 0.16);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10%;
+    width: 30%;
+    margin-top: 1%;
+}
+
+div h1{background:rgba(0, 237, 201, 0.72);
+    border: 8px solid rgba(141, 59, 59, 0);
+    border-radius: 15px;
+    opacity:0;
+    color: white;
+    margin-top: 10%;
+    font-size:8vh;
+    font-family: Century Gothic;
+    animation-name: h1;
+    animation-duration: .5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes h1{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+
+
+.box{   
+background: rgba(0, 0, 255, 0);
+display: -webkit-box;
+-webkit-box-pack: center;
+padding: 10px;
+
+
+}
+#blurb{
+    background: rgba(0, 17, 44, 0);
+    border-radius: 15px;
+}
+
+.blurb{
+
+opacity:1;
+font-weight: 900;
+color: white;
+font-size:5vh; 
+font-family: Century Gothic;
+margin-top: 2%;
+
+}
+
+#p1{opacity:0;
+    color:white;
+    animation-name: p1;
+    animation-delay: 3s;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.09, .76, .69, 1.21);
+}
+
+@keyframes p1{
+    from{opacity:0;transform: translate(0px, 6vh);}
+    to{opacity:1;transform: translate(0px, 0px);}
+}
+
+#p2{opacity:0;
+    color:white;
+    animation-name: p2;
+    animation-delay: 3.2s;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.09, .76, .69, 1.21);
+}
+
+@keyframes p2{
+    from{opacity:0;transform: translate(0px, 6vh);}
+    to{opacity:1;transform: translate(0px, 0px);}
+}
+
+div h2{opacity:0;
+    border: 8px solid rgba(141, 59, 59, 0);
+    border-radius: 15px;
+    color: rgb(62, 255, 159);
+    margin-top: 0%;
+    font-size:6vh;
+    font-family: Century Gothic;
+    animation-name: h2;
+    animation-duration: 1s;
+    animation-delay: 4.2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: cubic-bezier(0, 0, .95, 1.47);
+}
+
+@keyframes h2{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+
+#logo {
+    opacity: 1;
+    color: white;
+    background: rgba(255, 0, 0, 0);
+    font-size: 5vh;
+    font-family: Century Gothic, serif;
+       /* animation-name: logo;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.37, .02, 0, .97);*/
+       animation-name: logo;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.37, .02, 0, .97);
+}
+
+
+@keyframes logo {
+    from{transform: scale(1) ;}
+    to {;transform: scale(1.1);}
+}
+
+
+
+
+.display {
+    font-family: Century Gothic, Oswald, calibri, serif;
+    font-size: 1em;
+}
+
+
+
+#applicationbuzz{
+    background:rgba(0, 177, 255, 0.16);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10%;
+    width: 30%;
+    margin-top: 1%;
+}
+
+h1{background:rgba(0, 137, 237, 0.72);
+    border: 8px solid rgba(141, 59, 59, 0);
+    border-radius: 8px;
+    color: white;
+    margin-top: 10%;
+    font-size:8vh;
+    font-family: Muli;
+
+}
+
+h2{
+  color: white;
+font-size:3vh; 
+    margin-top: -1%;
+     font-family: Muli; 
+}
+
+
+.display {
+    font-family: Century Gothic, Oswald, calibri, serif;
+    font-size: 1em;
+}
+
+
+#section4 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    background: url(../res/plane2.jpg);
+    background-size: 100% 100%;
+}
+
+
+.V{
+    opacity:0;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    color: white;
+    transition: font-weight 1s;
+}
+
+
+@keyframes V{
+    from{opacity: 0; transform: translate(0vw, 20vw);}
+    to{opacity:1; transform: translate(0vw, 0vw);}
+}
+
+.a{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+
+.b{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+.c{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+.d{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+.e{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+#value{
+    background: rgba(0, 128, 0, 0);
+}
+
+
+
+#images{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+}
+
+.image{
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.66);
+    height: 260px;
+    width:260px;
+    margin-left: 1vw;
+    -webkit-filter:  brightness(40%);
+    transition: filter 1s, padding .2s;
+    font-weight: 100;
+  
+}
+
+.image:hover{
+ -webkit-filter:  brightness(100%);
+padding-left: 3px;
+}
+
+.imageTest{
+        animation-name: imageTest;
+        animation-duration: 1s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.37, .02, 0, .97);
+
+
+}
+
+@keyframes imageTest {
+    from { opacity: 0;transform: scale(1.1);}
+    to {opacity: 1;transform: scale(1);}
+}
+
+
+
+#image1{
+    background-image: url(../res/iot2.jpg);
+    background-size: 140%, 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+#image2{
+    background-image: url(../res/Arduino316.jpg);
+    background-size: 160%, 100%;
+    background-repeat: no-repeat;
+}
+
+#image3{
+    background-image: url(../res/Entreprise_parachimique_de_la_Ni%C3%A8vre_2.jpg);
+    background-size: 180%, 100%;
+    background-repeat: no-repeat;
+}
+#image4{
+    background-image: url(../res/startup-594090_960_720.jpg);
+    background-size: 180%, 100%;
+    background-repeat: no-repeat;
+}
+
+#v{
+    padding: 5px;
+    font-size: 1em;
+    font-family: Century Gothic;
+    color: white;
+    margin: auto;
+    background: rgb(0, 183, 162);
+    margin-top: 20px;
+    transition:margin 1s;
+}
+
+#logos{
+
+    height: 200px;
+    width:800px;
+    margin-top: 2vh;
+   display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+  
+}
+
+#logo1{
+    opacity:0;
+    margin-top: 1vh;
+    width: 300px;
+    height:100px;
+    background-image:url(../res/applicationbuzz.png);
+    background-size: contain;
+     background-repeat: no-repeat;
+     background-color: rgba(127, 255, 212, 0);
+        
+}
+
+
+#logo2{
+    opacity:0;
+    width: 100px;
+    height:100px;
+    background-color: rgba(127, 255, 212, 0);
+    background-repeat: no-repeat;
+    background-image:url(../res/Ness2.png);
+    background-size: contain;
+        
+}
+
+.logo1{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+
+.logo2{
+    animation-name: V;
+    animation-duration: 1s;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, .78, 1.2);
+}
+
+
+img {
+    width: 30px;
+    height:30px;
+}
