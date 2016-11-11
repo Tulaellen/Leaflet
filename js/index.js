@@ -15,6 +15,9 @@ var animate = [
          $('.image').addClass('imageTest');
         $('#logo1').addClass('logo1');
         $('#logo2').addClass('logo2');
+         $('#logo3').addClass('logo3');
+        $('#contact').addClass('contact');
+        
        
 
     }
