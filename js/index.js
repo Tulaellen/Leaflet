@@ -4,21 +4,21 @@ var animate = [
     function section1(on) {
     },
 
-
+    
 
     function section4(on) {
         $('#a').addClass('a');
-        $('#b').addClass('b');
-        $('#c').addClass('c');
-        $('#d').addClass('d');
-        $('#e').addClass('e');
-        $('.image').addClass('imageTest');
+         $('#b').addClass('b');
+         $('#c').addClass('c');
+         $('#d').addClass('d');
+         $('#e').addClass('e');
+         $('.image').addClass('imageTest');
         $('#logo1').addClass('logo1');
         $('#logo2').addClass('logo2');
-        $('#logo3').addClass('logo3');
+         $('#logo3').addClass('logo3');
         $('#contact').addClass('contact');
-
-
+        
+       
 
     }
 ];
